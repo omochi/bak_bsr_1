@@ -19,8 +19,7 @@ $ curl -s https://raw.githubusercontent.com/omochi/bsr/master/src/installer.bash
 ## uninstall
 
 ~~~
-$ rm -rf /usr/local/lib/bsr
-$ rm /usr/local/bin/bsr
+$ rm -rf /usr/local/lib/bsr /usr/local/bin/bsr
 ~~~
 
 # using
