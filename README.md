@@ -62,3 +62,10 @@ Use unix user system same as git repository access control.
 # use for application resource repository
 
 Treat bsr repository as git submodule of application repository.
+
+# architecture
+
+Versions are commits pointed by git tag.
+They are independent commits and not connected with relationship between parent and child.
+Each version commits are root commit in git.
+So we can purge old version easily by erase tag and git treat files in version as unreachable garbage object.
