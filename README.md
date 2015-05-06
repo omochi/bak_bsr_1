@@ -16,10 +16,21 @@ Source code is small.
 $ curl -s https://raw.githubusercontent.com/omochi/bsr/master/src/installer.bash | bash
 ~~~
 
+You can install it any place you want to do.
+Get this repository and add `src/bsr` to `PATH` or create symbolic link to `src/bsr` at directory belonging `PATH` .
+
 ## uninstall
 
 ~~~
 $ rm -rf /usr/local/lib/bsr /usr/local/bin/bsr
+~~~
+
+## upgrade
+
+~~~
+$ cd /usr/local/lib/bsr
+$ git pull
+$ src/install.bash
 ~~~
 
 # using
