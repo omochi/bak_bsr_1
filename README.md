@@ -69,6 +69,15 @@ Bsr has hook plugin function like git hook.
 But in contrast git, bsr hooks is managed by bsr itself.
 So you can share hooks of repository with your collaborators.
 
+Hook scripts are put in directory `.bsr/hook/<hook-types>`.
+These directories is created by `$ bsr init`.
+Multiple scripts can be used in same hook type.
+
+All hook types are below.
+
+- pre push
+- post checkout
+
 # architecture
 
 Versions are commits pointed by git tag.
