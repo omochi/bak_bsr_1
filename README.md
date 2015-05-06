@@ -63,6 +63,12 @@ Use unix user system same as git repository access control.
 
 Treat bsr repository as git submodule of application repository.
 
+# hook function
+
+Bsr has hook plugin function like git hook.
+But in contrast git, bsr hooks is managed by bsr itself.
+So you can share hooks of repository with your collaborators.
+
 # architecture
 
 Versions are commits pointed by git tag.
