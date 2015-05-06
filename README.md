@@ -4,6 +4,10 @@ Bsr is simple client-server model version management system constructed on git c
 
 Name is comming from **B**inary **S**to**R**age.
 
+Bsr is focused on portability.
+It is written in python2 and implemented by git commands.
+Source code is small.
+
 # setup
 
 ## install
