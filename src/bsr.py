@@ -129,6 +129,9 @@ class App:
     self.checkout_version(version)
 
   def run_hooks_in_dir(self, dir):
+    os.chdir(dir)
+    os.environ['BSR_REPO_DIR'] = self.get_repo_dir()
+
     files = os.listdir(dir)
     files = sorted(files)
     for file in files:
