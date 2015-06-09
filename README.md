@@ -1,3 +1,8 @@
+# Don't use this
+
+From a result of using in production, it is revealed that this implementation does not concert with git storage strategy.
+Many useless data transfer occured.
+
 # bsr
 
 Bsr is simple client-server model version management system constructed on git commands.
